@@ -44,14 +44,17 @@ const GlobalStyles = createGlobalStyle`
     border-spacing: 0;
   }
   * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
   html {
     color: #555d66;
     font-size: 14px;
     font-family: 'Nunito', sans-serif;
+    background-color: #f7f7f7;
+  }
+
+  a{
+    text-decoration: none;
   }
 `
 

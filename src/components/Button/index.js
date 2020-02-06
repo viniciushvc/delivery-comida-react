@@ -17,12 +17,12 @@ export default function Button({ children, className, type, onClick, color }) {
 }
 
 Button.propTypes = {
-  children: PropTypes.any.isRequired,
   className: PropTypes.string,
   type: PropTypes.string.isRequired,
   onClick: PropTypes.func,
 }
 
 Button.defaultProps = {
-  type: 'submit',
+  className: '',
+  onClick: undefined,
 }

@@ -1,0 +1,11 @@
+export const Category = {
+  SELECT: 'CATEGORY_SELECT',
+  GET: 'CATEGORY_GET',
+  REQUEST_GET: 'CATEGORY_REQUEST_GET',
+}
+
+export const Restaurant = {
+  SELECT: 'RESTAURANT_SELECT',
+  GET: 'RESTAURANT_GET',
+  REQUEST_GET: 'RESTAURANT_REQUEST_GET',
+}
