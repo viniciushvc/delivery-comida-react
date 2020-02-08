@@ -1,5 +1,10 @@
 # Delivery
 
+- React
+- Redux
+- Redux Saga
+- MirageJS
+
 ## Dependências
 
 - Node 8+
@@ -8,5 +13,4 @@
 ## Rodar projeto
 
 - Instalar as dependências: `npm install`
-- Iniciar o servidor: `json-server --watch src/assets/db.json`
 - Para rodar o projeto: `npm start`
