@@ -5,11 +5,6 @@
 - Redux Saga
 - MirageJS
 
-## Dependências
-
-- Node 8+
-- `npm install -g json-server`
-
 ## Rodar projeto
 
 - Instalar as dependências: `npm install`
