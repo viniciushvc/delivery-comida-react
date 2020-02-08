@@ -10,7 +10,7 @@ function* getRestaurantsSaga() {
   try {
     const { data } = yield api.get('/restaurants')
 
-    yield put(RestaurantActions.get(data))
+    yield put(RestaurantActions.get(data.restaurants))
   } catch (err) {
     console.log(err)
   }

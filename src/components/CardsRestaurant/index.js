@@ -6,7 +6,7 @@ export default function CardRestaurant({ items }) {
   return (
     <S.CardWrapper>
       {items?.map(item => (
-        <S.Card key={item.id}>
+        <S.Card key={item.id} to="/">
           <S.CardImage src={item.image} />
           <S.CardContent>
             <S.CardTitle>{item.name}</S.CardTitle>

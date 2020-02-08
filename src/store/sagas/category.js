@@ -10,7 +10,7 @@ function* getCategoriesSaga() {
   try {
     const { data } = yield api.get('/categories')
 
-    yield put(CategoryActions.get(data))
+    yield put(CategoryActions.get(data.categories))
   } catch (err) {
     console.log(err)
   }
